@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the main app container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style the main content area */
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Common styles for all sections */
+main > div {
+  margin-bottom: 40px;
+}
+
+/* Style headers in each section */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Basic styles for navigation links */
+nav a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style for active navigation link */
+.nav-active {
+  color: #ff5722;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #e7e7e7;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  nav a {
+    margin: 0 5px;
+    font-size: 0.9em;
+  }
+}

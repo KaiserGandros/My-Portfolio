@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-content {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content a {
+    margin: 0 10px; 
+}
+
+.footer-content img {
+    width: 24px;
+    vertical-align: middle;
+}
+

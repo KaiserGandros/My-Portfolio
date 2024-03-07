@@ -1,0 +1,69 @@
+.resume {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .card h2 {
+    text-align: center;
+    color: #333; 
+  }
+  
+  .card ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .card li {
+    background-color: #f0f0f0; 
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+/* resume.css */
+
+.resume-download {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  /* Additional styles for hover state */
+  &:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-decoration: none; /* This ensures the text decoration does not change on hover */
+  }
+}
+
+
+  @media (max-width: 768px) {
+    .resume {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%; /* Make cards wider on smaller screens */
+    }
+  }
+  
