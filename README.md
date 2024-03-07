@@ -5,7 +5,7 @@
 ## Description
 This project consists of my main portfolio page using react, it showcases the so far works in my developer world and allows me a place to showcase my work and continuing projects. Here you will see an about me page, a place to list my projects, a resume page and a contact form.
 
-Here is the live deployed link on netlify: 
+Here is the live deployed link on netlify: https://ubiquitous-madeleine-83c696.netlify.app
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
